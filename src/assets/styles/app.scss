@@ -19,5 +19,9 @@
       @extend .text-preset-1;
       color: $rose-900;
     }
+
+    @media (max-width: $md) {
+      width: 100%;
+    }
   }
 }
